@@ -7,12 +7,23 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Drive from './Component/Sections/Home/Drive';
+import Ride from './Component/Sections/Home/Ride';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />
+  },
+  {
+    path: "/Drive",
+    element: <Drive />
+  },
+  {
+    path: "/Ride",
+    element: <Ride />
   },
 ]);
 root.render(

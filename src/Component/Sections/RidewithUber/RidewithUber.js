@@ -12,7 +12,7 @@ function RidewithUber() {
         <h4>Uber Auto</h4>
         <p>Get affordable Uber Auto rides with no haggling.Request Uber Auto and ride comfortable around your city.</p>
         </div>
-        <span>→</span>
+        <span className={style.span}>→</span>
       </div>
 
    <div className={style.container}>
@@ -21,7 +21,7 @@ function RidewithUber() {
         <h4>Uber Auto</h4>
         <p>Get affordable Uber Auto rides with no haggling.Request Uber Auto and ride comfortable around your city.</p>
         </div>
-        <span>→</span>
+        <span className={style.span}>→</span>
       </div>
       </div>
 
@@ -32,7 +32,7 @@ function RidewithUber() {
         <h4>Uber Auto</h4>
         <p>Get affordable Uber Auto rides with no haggling.Request Uber Auto and ride comfortable around your city.</p>
         </div>
-        <span>→</span>
+        <span className={style.span}>→</span>
       </div>
 
    <div className={style.container}>
@@ -41,7 +41,7 @@ function RidewithUber() {
         <h4>Uber Auto</h4>
         <p>Get affordable Uber Auto rides with no haggling.Request Uber Auto and ride comfortable around your city.</p>
         </div>
-        <span>→</span>
+        <span className={style.span}>→</span>
       </div>
       </div>
 

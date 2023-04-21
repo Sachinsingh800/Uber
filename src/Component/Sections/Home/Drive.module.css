@@ -1,46 +1,4 @@
-.main{
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     height: 100vh;
-   
-}
-.ride{
-    position: absolute;
-}
-.main{
-    -webkit-animation-name: fadeInUp;
-    animation-name: fadeInUp;
-    -webkit-animation-duration: 1s;
-    animation-duration: 1s;
-    -webkit-animation-fill-mode: both;
-    animation-fill-mode: both;
-    }
-    @-webkit-keyframes fadeInUp {
-    0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-    }
-    100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-    }
-    }
-    @keyframes fadeInUp {
-    0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-    }
-    100% {
-    opacity: 1;
-    -webkit-transform: none;
-    transform: none;
-    }
-    } 
-    
+
 .container{
     /* border: 1px rgb(98, 255, 0) solid; */
     width: 37rem;
@@ -59,9 +17,11 @@
 .middlepart{
     display: flex;
     flex-direction: column;
+    width: 37rem;
     align-items: center;
     justify-content: center;
     row-gap: 1rem;
+    padding: 1rem;
 }
 .middlepart input {
     width: 30rem;
@@ -98,7 +58,6 @@ span{
 }
 .img{
     position: absolute;
-    z-index: -1;
     margin-top: 1rem;
 }
 .button button:hover{
@@ -106,4 +65,14 @@ span{
 }
 .middlepart input:hover{
     background-color: rgb(222, 216, 216);
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  
+}
+.ride{
+   position: absolute;
 }

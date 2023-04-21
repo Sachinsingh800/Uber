@@ -3,9 +3,11 @@ import style from "./Ride.module.css"
 import { AiFillCar} from 'react-icons/ai';
 import { GiNetworkBars} from 'react-icons/gi';
 import { AiOutlineKey} from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 
 function Ride() {
+  
   return (
     <div>
          <div  className={style.container}> 
@@ -15,7 +17,7 @@ function Ride() {
         <p>Ride</p>
         </div>
     <div>
-    <span className={style.icon}><GiNetworkBars /></span>
+   <Link to={"/Drive"} ><span className={style.icon}><GiNetworkBars /></span></Link>
     <p>Driver or deliver</p>
     </div>
     <div>
