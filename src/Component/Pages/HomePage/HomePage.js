@@ -1,44 +1,16 @@
 import React from 'react'
 import style from "./HomePage.module.css"
-import { AiFillCar} from 'react-icons/ai';
-import { GiNetworkBars} from 'react-icons/gi';
-import { AiOutlineKey} from 'react-icons/ai';
 import Business from '../../Sections/Business/Business';
 import RidewithUber from '../../Sections/RidewithUber/RidewithUber';
 import Image from "../../Images/bg.png"
+import Ride from '../../Sections/Home/Ride';
 
 function HomePage() {
   return (
     <>
-    <img className={style.img} src={Image} alt='bg' />
     <div className={style.main}>
-      <div  className={style.container}> 
-      <div className={style.head}>
-        <div>
-        <span className={style.icon}><AiFillCar /></span>
-        <p>Ride</p>
-        </div>
-    <div>
-    <span className={style.icon}><GiNetworkBars /></span>
-    <p>Driver or deliver</p>
-    </div>
-    <div>
-    <span className={style.icon}><AiOutlineKey /></span>
-    <p>Rent your fleet</p>
-    </div>
-      
-      </div>
-      <div className={style.middlepart}>
-        <h1>Request a ride now</h1>
-        <input placeholder='Enter pickup location' />
-        <input placeholder='Enter destination' />
-      </div>
-      <div className={style.button}>
-      <button>Request now</button>
-      <button>Schedule for later</button> 
-      </div>
-     
-      </div>
+    <img className={style.img} src={Image} alt='bg' />
+      <div className={style.ride}><Ride /></div>
     </div>
     <Business />
     <RidewithUber />
