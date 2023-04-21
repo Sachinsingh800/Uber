@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    align-items: center;
+}
+.contain{
+    width: 20rem;
+    margin-left: 1rem;
+}
+.main{
+    /* border: 1px #ff0000 solid; */
+    padding: 4rem;
+}
+.tablebox{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+span {
+    display: inline-block;
+    transition: 0.1s ease-in;
+  }
+  
+  span:hover{
+    transform: translateX(50%);
+  }

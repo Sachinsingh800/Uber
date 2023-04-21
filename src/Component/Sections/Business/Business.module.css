@@ -1,0 +1,20 @@
+.para{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px red solid; */
+    height: 20rem;
+    margin-left: 4rem;
+
+}
+.para button{
+    width: 6rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+}
+.img{
+    height: 20rem;
+    width: 98.7vw;
+}
