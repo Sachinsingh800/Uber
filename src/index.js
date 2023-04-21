@@ -11,6 +11,7 @@ import Drive from './Component/Sections/Home/Drive';
 import Ride from './Component/Sections/Home/Ride';
 import Rent from './Component/Sections/Home/Rent';
 import Language from './Component/Pages/Language/Language';
+import LoginPage from './Component/Pages/LoginPage/LoginPage';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
   {
     path: "/Language",
     element: <Language />
+  },
+  {
+    path: "/Login",
+    element: <LoginPage />
   },
 ]);
 root.render(

@@ -32,7 +32,7 @@ function NavigationBar() {
             <div style={{display:"flex",width:"60vw", justifyContent:"flex-end"} }>
             <Nav.Link href="/Language"><BsGlobe /> EN</Nav.Link>
             <Nav.Link href="link"><CgMenuGridO /> Products</Nav.Link>
-            <Nav.Link href="#link">Login</Nav.Link>
+            <Nav.Link href="/Login">Login</Nav.Link>
             <Nav.Link href="#link">Sign Up</Nav.Link>
             </div>
           </Nav>
