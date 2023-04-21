@@ -8,7 +8,7 @@ import { CgMenuGridO} from 'react-icons/cg';
 
 function NavigationBar() {
   return (
-    <Navbar style={{backgroundColor:"white"}}  >
+    <Navbar style={{backgroundColor:"white", zIndex:"99"}}  >
       <Container >
         <Navbar.Brand href="#home">Uber </Navbar.Brand>
 

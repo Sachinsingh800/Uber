@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     row-gap: 1rem;
-    padding: 1rem;
+    padding: 1rem 1.5rem 1rem 4rem;
 }
 .middlepart input {
     width: 30rem;
