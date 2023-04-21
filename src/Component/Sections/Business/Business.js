@@ -3,7 +3,7 @@ import style from "./Business.module.css"
 
 function Business() {
   return (
-    <div>
+    <div className={style.main}>
         <div className={style.para}>
             <h1>Uber for Business</h1>
             <p>Transform the way your moves and feeds its people</p>
