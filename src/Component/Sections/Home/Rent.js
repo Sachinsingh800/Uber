@@ -5,7 +5,7 @@ import { GiNetworkBars} from 'react-icons/gi';
 import { AiOutlineKey} from 'react-icons/ai';
 import Business from '../../Sections/Business/Business';
 import RidewithUber from '../../Sections/RidewithUber/RidewithUber';
-import Image from "../../Images/bg.png"
+import Image from "../../Images/bg2.jpg"
 import NavigationBar from '../../NavigationBar/NavigationBar';
 import { Link } from 'react-router-dom';
 
