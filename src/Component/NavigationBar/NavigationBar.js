@@ -25,10 +25,9 @@ function NavigationBar() {
               <NavDropdown.Item href="#action/3.3">Investor relations</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Blog</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">Careers</NavDropdown.Item>
-
-
-
-            </NavDropdown><Nav.Link href="#home">Safety</Nav.Link>
+              </NavDropdown>
+              
+              <Nav.Link href="#home">Safety</Nav.Link>
             <Nav.Link href="#link">Help</Nav.Link>
             <div style={{display:"flex",width:"60vw", justifyContent:"flex-end"} }>
             <Nav.Link href="#link"><BsGlobe /> EN</Nav.Link>

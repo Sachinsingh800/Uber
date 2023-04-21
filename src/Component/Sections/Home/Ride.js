@@ -13,7 +13,7 @@ function Ride() {
          <div  className={style.container}> 
       <div className={style.head}>
         <div>
-        <span className={style.icon}><AiFillCar /></span>
+       <Link to={"/"} ><span className={style.icon}><AiFillCar /></span></Link>
         <p>Ride</p>
         </div>
     <div>
@@ -21,7 +21,7 @@ function Ride() {
     <p>Driver or deliver</p>
     </div>
     <div>
-    <span className={style.icon}><AiOutlineKey /></span>
+    <Link to={"/Rent"}><span className={style.icon}><AiOutlineKey /></span></Link>
     <p>Rent your fleet</p>
     </div>
       

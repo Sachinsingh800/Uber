@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Drive from './Component/Sections/Home/Drive';
 import Ride from './Component/Sections/Home/Ride';
+import Rent from './Component/Sections/Home/Rent';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/Ride",
     element: <Ride />
+  },
+  {
+    path: "/Rent",
+    element: <Rent />
   },
 ]);
 root.render(

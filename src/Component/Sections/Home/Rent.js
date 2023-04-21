@@ -1,5 +1,5 @@
 import React from 'react'
-import style from "./Drive.module.css"
+import style from "./Rent.module.css"
 import { AiFillCar} from 'react-icons/ai';
 import { GiNetworkBars} from 'react-icons/gi';
 import { AiOutlineKey} from 'react-icons/ai';
@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 
 
-function Drive() {
+function Rent() {
 
   return (
     <>
@@ -37,11 +37,11 @@ function Drive() {
       
       </div>
       <div className={style.middlepart}>
-        <h1>Get in the driver's seat and get paid</h1>
-        <p>Drive on the platform with the largest network of active riders.</p>
+        <h1>Make money by renting out your car</h1>
+        <p>Connect with thousands of drivers and earn more per week with Uber’s free fleet management tools.</p>
       </div>
       <div className={style.button}>
-      <button>Sign up to drive</button>
+      <button>Get started</button>
       </div>
      
       </div></div>
@@ -52,4 +52,4 @@ function Drive() {
   )
 }
 
-export default Drive
+export default Rent
