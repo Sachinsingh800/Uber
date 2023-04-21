@@ -10,7 +10,7 @@ function NavigationBar() {
   return (
     <Navbar style={{backgroundColor:"white", zIndex:"99"}}  >
       <Container >
-        <Navbar.Brand href="#home">Uber </Navbar.Brand>
+        <Navbar.Brand href="/">Uber </Navbar.Brand>
 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -30,8 +30,8 @@ function NavigationBar() {
               <Nav.Link href="#home">Safety</Nav.Link>
             <Nav.Link href="#link">Help</Nav.Link>
             <div style={{display:"flex",width:"60vw", justifyContent:"flex-end"} }>
-            <Nav.Link href="#link"><BsGlobe /> EN</Nav.Link>
-            <Nav.Link href="#link"><CgMenuGridO /> Products</Nav.Link>
+            <Nav.Link href="/Language"><BsGlobe /> EN</Nav.Link>
+            <Nav.Link href="link"><CgMenuGridO /> Products</Nav.Link>
             <Nav.Link href="#link">Login</Nav.Link>
             <Nav.Link href="#link">Sign Up</Nav.Link>
             </div>
